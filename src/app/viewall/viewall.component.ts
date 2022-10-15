@@ -10,6 +10,11 @@ export class ViewallComponent implements OnInit {
   constructor() { }
 
   name="Saranya"
+ 
+
+  readValues=()=>{
+      this.name="Raju"
+  }
 
   ngOnInit(): void {
   }
